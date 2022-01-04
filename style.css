@@ -28,16 +28,28 @@ h1 span {
   color: #fb6c59 !important;
 }
 .half-width img {
+  animation-play-state: running;
   width: 100%;
+}
+img {
+  transition: 0.5s;
+}
+img:hover {
+  transform: scale(1.1);
 }
 .anchor-button {
   text-decoration: none;
-  background: linear-gradient(45deg, lightsalmon, tomato);
+  background: linear-gradient(45deg, rgb(180, 167, 48), rgb(161, 37, 15));
   padding: 10px 40px;
   border-radius: 5px;
   color: white;
   font-weight: 700;
   font-family: "Good Times", arial;
+  transition: 0.5s;
+}
+
+.anchor-button:hover {
+  letter-spacing: 1.5px !important;
 }
 p {
   color: rgb(0, 0, 0);
