@@ -1,72 +1,96 @@
-body{
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@700&family=Exo:ital,wght@1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@700&family=Exo:ital,wght@1,900&family=Roboto:wght@500&display=swap");
+@import url(https://allfont.net/allfont.css?fonts=good-times);
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
 }
-section{
-    height: 500px;
-    padding-bottom: 150px;
+section {
+  height: 500px;
+  padding-bottom: 150px;
 }
-.top-banner{
-    background-image: url("images/top-banner.png");
-    background-repeat: no-repeat;
+.top-banner {
+  background-image: url("images/top-banner.png");
+  background-repeat: no-repeat;
 }
-.half-width{
-    width:40%;
-    float: left;
-    margin-left: 5%;
-    padding-left: 2%;
+.half-width {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
 }
-h1{
-    font-size: 50px;
+h1 {
+  font-size: 38px;
+  font-family: "Good Times", arial;
+  color: #000000;
 }
-h1 span{
-    color: orange;
+h1 span {
+  color: #fb6c59 !important;
 }
-.half-width img{
-    width: 100%;
+.half-width img {
+  width: 100%;
 }
-.anchor-button{
-    text-decoration: none;
-    background: linear-gradient(45deg, lightsalmon, tomato);
-    padding: 10px 40px;
-    border-radius: 5px;
-    color: white;
-    font-weight: 700;
+.anchor-button {
+  text-decoration: none;
+  background: linear-gradient(45deg, lightsalmon, tomato);
+  padding: 10px 40px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  font-family: "Good Times", arial;
 }
-p{
-    color: dimgray;
+p {
+  color: rgb(0, 0, 0);
+  font-family: "Roboto", sans-serif;
 }
-.dream-area{
-    background-image: url("images/dream-bg.png");
-    background-repeat: no-repeat;
-    background-position: right;
+.dream-area {
+  background-image: url("images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
 }
-h2{
-    font-size: 40px;
+h2 {
+  font-size: 32px;
+  font-family: "Good Times", arial;
 }
-.experience-area{
-    background-image: url("images/exp-bg.png");
-    background-repeat: no-repeat;
-    background-position: left;
+.experience-area {
+  background-image: url("images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
 }
-.experience-area h3{
-    color: orange;
+.experience-area h3 {
+  font-family: "Good Times", arial;
+  color: orange;
 }
 
-.experience-area div{
-    box-shadow: 5px 7px 40px gray;
-    height: 80%;
+.experience-area div {
+  box-shadow: 5px 7px 40px gray;
+  height: 80%;
 }
-#full-stack{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, lightsalmon, tomato);
-    border-image-slice: 1;
+#full-stack {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightsalmon, tomato);
+  border-image-slice: 1;
+  font-family: "Good Times", arial;
 }
-#baby-web{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, blue, cyan);
-    border-image-slice: 1;
+#baby-web {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+  font-family: "Good Times", arial;
 }
-footer p{
-    text-align: center;
+footer p {
+  text-align: center;
+}
+.wayes {
+  height: 400px !important;
+  width: 400px !important;
+  padding-top: 35px !important;
+}
+.demo {
+  font-size: 64px !important;
+  margin-bottom: -15px !important;
+}
+h3 {
+  font-family: "Good Times", arial;
+  font-size: 18px;
 }
